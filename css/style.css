@@ -1,0 +1,75 @@
+/* GENERAL STYLES - Marko */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Very important */
+* {
+  box-sizing: border-box;
+}
+
+/* ClearFix hack */
+/* .cf::before, .cf::after {
+  content: '';
+  display: table;
+}
+
+.cf::after {
+  clear: both;
+} */
+
+.poster {
+  width: 150px;
+  height: 200px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+div.list-of-all {
+  position: relative;
+  max-width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.movies-class {
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.rem {
+  position: absolute;
+  width: 25px;
+  top: 25px;
+  left: 120px;
+}
+
+h1, h3 {
+  text-align: center;
+}
+
+h3 {
+  font-size: 14px;
+}
+
+#search {
+  text-align: center; 
+}
+
+#myInput {
+  background-image: url('/img/searchicon.png');
+  width: 40%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+
